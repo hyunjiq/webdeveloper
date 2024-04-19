@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+    <style>
+        /* display:flex; 부모요소한테 먹여야함 */
+        body{
+            height: 100vh; /*view height 화면 높이*/
+            /* width: 100vw; view width */
+            display:flex;
+            justify-content: center;
+            align-items: center;        
+        }
+        button{
+            background-color: transparent;
+            color: black;
+            font-size: 2rem;
+            padding: 0.5rem 2rem;
+            border-radius: 100px;
+            border: 3px solid black;
+            transition: 0.3s;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+            border-radius: 0px;
+        }
+    </style>
+</head>
+<body>
+    <button>HOVER</button>
+</body>
+</html>
